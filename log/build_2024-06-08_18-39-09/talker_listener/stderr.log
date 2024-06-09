@@ -1,0 +1,5 @@
+  File "/home/kishoreyogaraj/ros2_wsa/install/talker_listener/lib/python3.10/site-packages/talker_listener/talker_node.py", line 2
+    import rclpy.node import Node
+                      ^^^^^^
+SyntaxError: invalid syntax
+
