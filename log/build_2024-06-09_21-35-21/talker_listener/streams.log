@@ -1,0 +1,23 @@
+[0.643s] Invoking command in '/home/kishoreyogaraj/ros2_wsa/src/talker_listener': PYTHONPATH=/home/kishoreyogaraj/ros2_wsa/build/talker_listener/prefix_override:/home/kishoreyogaraj/ros2_wsa/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/kishoreyogaraj/ros2_wsa/build/talker_listener/build install --record /home/kishoreyogaraj/ros2_wsa/build/talker_listener/install.log --single-version-externally-managed install_data
+[0.899s] running egg_info
+[0.900s] writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+[0.901s] writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+[0.902s] reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.903s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.903s] running build
+[0.903s] running build_py
+[0.903s] running install
+[0.904s] running install_lib
+[0.905s] running install_data
+[0.905s] copying launch/talker_listener.launch.py -> /home/kishoreyogaraj/ros2_wsa/install/talker_listener/share/talker_listener/launch/
+[0.905s] running install_egg_info
+[0.907s] removing '/home/kishoreyogaraj/ros2_wsa/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[0.907s] Copying ../../build/talker_listener/talker_listener.egg-info to /home/kishoreyogaraj/ros2_wsa/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info
+[0.908s] running install_scripts
+[0.927s] Installing listenerNode script to /home/kishoreyogaraj/ros2_wsa/install/talker_listener/lib/talker_listener
+[0.927s] Installing talkerNode script to /home/kishoreyogaraj/ros2_wsa/install/talker_listener/lib/talker_listener
+[0.927s] writing list of installed files to '/home/kishoreyogaraj/ros2_wsa/build/talker_listener/install.log'
+[0.952s] Invoked command in '/home/kishoreyogaraj/ros2_wsa/src/talker_listener' returned '0': PYTHONPATH=/home/kishoreyogaraj/ros2_wsa/build/talker_listener/prefix_override:/home/kishoreyogaraj/ros2_wsa/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/kishoreyogaraj/ros2_wsa/build/talker_listener/build install --record /home/kishoreyogaraj/ros2_wsa/build/talker_listener/install.log --single-version-externally-managed install_data
