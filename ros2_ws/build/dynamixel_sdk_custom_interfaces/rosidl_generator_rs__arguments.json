@@ -1,0 +1,32 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "output_dir": "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_rs/dynamixel_sdk_custom_interfaces",
+  "template_dir": "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource",
+  "idl_tuples": [
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl",
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl"
+  ],
+  "ros_interface_files": [
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl",
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_idiomatic.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_rmw.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl",
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl",
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl",
+    "/home/user/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl",
+    "/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "package_version": "3.7.60"
+}

@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.002801] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.002887] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.002926] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.002961] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002994] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003027] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.003060] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003092] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003123] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.003156] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003232] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.003269] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.003300] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003332] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003364] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003406] (turtlebot_bringup) JobQueued: {'identifier': 'turtlebot_bringup', 'dependencies': OrderedDict()}
+[0.003450] (turtlebot_bringup) JobStarted: {'identifier': 'turtlebot_bringup'}
+[0.110699] (-) TimerEvent: {}
+[0.217240] (-) TimerEvent: {}
+[0.426939] (-) TimerEvent: {}
+[0.491019] (turtlebot_bringup) JobProgress: {'identifier': 'turtlebot_bringup', 'progress': 'cmake'}
+[0.600934] (-) TimerEvent: {}
+[0.601792] (turtlebot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/turtlebot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/turtlebot_bringup'], 'cwd': '/home/user/ros2_ws/build/turtlebot_bringup', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/turtlebot_bringup'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/turtlebot_bringup:/home/user/ros2_ws/install/turtlebot3:/home/user/ros2_ws/install/turtlebot3_teleop:/home/user/ros2_ws/install/turtlebot3_simulations:/home/user/ros2_ws/install/turtlebot3_bringup:/home/user/ros2_ws/install/turtlebot3_node:/home/user/ros2_ws/install/turtlebot3_navigation2:/home/user/ros2_ws/install/turtlebot3_fake_node:/home/user/ros2_ws/install/turtlebot3_example:/home/user/ros2_ws/install/turtlebot3_msgs:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/turtlebot3_description:/home/user/ros2_ws/install/turtlebot3_cartographer:/home/user/ros2_ws/install/dynamixel_sdk_examples:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/user/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/turtlebot_bringup:/home/user/ros2_ws/install/turtlebot3:/home/user/ros2_ws/install/turtlebot3_simulations:/home/user/ros2_ws/install/turtlebot3_bringup:/home/user/ros2_ws/install/turtlebot3_node:/home/user/ros2_ws/install/turtlebot3_navigation2:/home/user/ros2_ws/install/turtlebot3_fake_node:/home/user/ros2_ws/install/turtlebot3_msgs:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/turtlebot3_description:/home/user/ros2_ws/install/turtlebot3_cartographer:/home/user/ros2_ws/install/dynamixel_sdk_examples:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/user/ros2_ws/install/dynamixel_sdk:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/turtlebot3_teleop:/home/user/ros2_ws/install/turtlebot3_example:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/user/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/user/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('TURTLEBOT3_MODEL', 'waffle'), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/home/user/ros2_ws/install/turtlebot3_msgs/lib:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '770480'), ('SLOT_PREFIX', 'fe41d630-f5f3-4359-a6c8-aa41bd31e26a'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25193'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/turtlebot_bringup'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.702197] (-) TimerEvent: {}
+[0.803749] (-) TimerEvent: {}
+[0.904203] (-) TimerEvent: {}
+[1.004885] (-) TimerEvent: {}
+[1.106107] (-) TimerEvent: {}
+[1.269192] (-) TimerEvent: {}
+[1.369695] (-) TimerEvent: {}
+[1.470112] (-) TimerEvent: {}
+[1.570570] (-) TimerEvent: {}
+[1.673474] (-) TimerEvent: {}
+[1.775531] (-) TimerEvent: {}
+[1.876705] (-) TimerEvent: {}
+[1.979216] (-) TimerEvent: {}
+[2.080604] (-) TimerEvent: {}
+[2.181985] (-) TimerEvent: {}
+[2.286248] (-) TimerEvent: {}
+[2.387182] (-) TimerEvent: {}
+[2.487802] (-) TimerEvent: {}
+[2.588211] (-) TimerEvent: {}
+[2.688984] (-) TimerEvent: {}
+[2.790038] (-) TimerEvent: {}
+[2.893266] (-) TimerEvent: {}
+[2.994310] (-) TimerEvent: {}
+[3.095770] (-) TimerEvent: {}
+[3.196563] (-) TimerEvent: {}
+[3.299593] (-) TimerEvent: {}
+[3.400905] (-) TimerEvent: {}
+[3.502392] (-) TimerEvent: {}
+[3.605958] (-) TimerEvent: {}
+[3.706821] (-) TimerEvent: {}
+[3.807890] (-) TimerEvent: {}
+[3.908640] (-) TimerEvent: {}
+[4.009547] (-) TimerEvent: {}
+[4.110816] (-) TimerEvent: {}
+[4.269812] (-) TimerEvent: {}
+[4.370285] (-) TimerEvent: {}
+[4.470687] (-) TimerEvent: {}
+[4.571092] (-) TimerEvent: {}
+[4.671499] (-) TimerEvent: {}
+[4.773610] (-) TimerEvent: {}
+[4.875526] (-) TimerEvent: {}
+[4.981214] (-) TimerEvent: {}
+[5.082849] (-) TimerEvent: {}
+[5.184343] (-) TimerEvent: {}
+[5.285164] (-) TimerEvent: {}
+[5.385611] (-) TimerEvent: {}
+[5.486289] (-) TimerEvent: {}
+[5.587094] (-) TimerEvent: {}
+[5.688472] (-) TimerEvent: {}
+[5.789459] (-) TimerEvent: {}
+[5.891250] (-) TimerEvent: {}
+[5.992992] (-) TimerEvent: {}
+[6.105603] (-) TimerEvent: {}
+[6.207090] (-) TimerEvent: {}
+[6.369179] (-) TimerEvent: {}
+[6.473324] (-) TimerEvent: {}
+[6.573717] (-) TimerEvent: {}
+[6.674824] (-) TimerEvent: {}
+[6.775502] (-) TimerEvent: {}
+[6.880479] (-) TimerEvent: {}
+[6.980894] (-) TimerEvent: {}
+[7.081726] (-) TimerEvent: {}
+[7.182866] (-) TimerEvent: {}
+[7.283289] (-) TimerEvent: {}
+[7.384083] (-) TimerEvent: {}
+[7.484492] (-) TimerEvent: {}
+[7.585385] (-) TimerEvent: {}
+[7.689307] (-) TimerEvent: {}
+[7.791081] (-) TimerEvent: {}
+[7.893135] (-) TimerEvent: {}
+[7.994602] (-) TimerEvent: {}
+[8.097516] (-) TimerEvent: {}
+[8.198223] (-) TimerEvent: {}
+[8.298629] (-) TimerEvent: {}
+[8.405001] (-) TimerEvent: {}
+[8.513482] (-) TimerEvent: {}
+[8.609111] (turtlebot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[8.613589] (-) TimerEvent: {}
+[8.714225] (-) TimerEvent: {}
+[8.815027] (-) TimerEvent: {}
+[8.915368] (-) TimerEvent: {}
+[9.015844] (-) TimerEvent: {}
+[9.116221] (-) TimerEvent: {}
+[9.216834] (-) TimerEvent: {}
+[9.369272] (-) TimerEvent: {}
+[9.469764] (-) TimerEvent: {}
+[9.572137] (-) TimerEvent: {}
+[9.675595] (-) TimerEvent: {}
+[9.777145] (-) TimerEvent: {}
+[9.880309] (-) TimerEvent: {}
+[9.981110] (-) TimerEvent: {}
+[10.085518] (-) TimerEvent: {}
+[10.192018] (-) TimerEvent: {}
+[10.292542] (-) TimerEvent: {}
+[10.392980] (-) TimerEvent: {}
+[10.496948] (-) TimerEvent: {}
+[10.597393] (-) TimerEvent: {}
+[10.697935] (-) TimerEvent: {}
+[10.798325] (-) TimerEvent: {}
+[10.899009] (-) TimerEvent: {}
+[11.001540] (-) TimerEvent: {}
+[11.101945] (-) TimerEvent: {}
+[11.202714] (-) TimerEvent: {}
+[11.307240] (-) TimerEvent: {}
+[11.421289] (-) TimerEvent: {}
+[11.572773] (-) TimerEvent: {}
+[11.673279] (-) TimerEvent: {}
+[11.777748] (-) TimerEvent: {}
+[11.878103] (-) TimerEvent: {}
+[11.981791] (-) TimerEvent: {}
+[12.085823] (-) TimerEvent: {}
+[12.193034] (-) TimerEvent: {}
+[12.293447] (-) TimerEvent: {}
+[12.393845] (-) TimerEvent: {}
+[12.495248] (-) TimerEvent: {}
+[12.600206] (-) TimerEvent: {}
+[12.700617] (-) TimerEvent: {}
+[12.788678] (turtlebot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[12.801631] (-) TimerEvent: {}
+[12.901997] (-) TimerEvent: {}
+[13.002357] (-) TimerEvent: {}
+[13.103016] (-) TimerEvent: {}
+[13.204238] (-) TimerEvent: {}
+[13.306740] (-) TimerEvent: {}
+[13.388556] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.409248] (-) TimerEvent: {}
+[13.510504] (-) TimerEvent: {}
+[13.611816] (-) TimerEvent: {}
+[13.713264] (-) TimerEvent: {}
+[13.814692] (-) TimerEvent: {}
+[13.916037] (-) TimerEvent: {}
+[14.021250] (-) TimerEvent: {}
+[14.169365] (-) TimerEvent: {}
+[14.269801] (-) TimerEvent: {}
+[14.370811] (-) TimerEvent: {}
+[14.471275] (-) TimerEvent: {}
+[14.572457] (-) TimerEvent: {}
+[14.591805] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.672597] (-) TimerEvent: {}
+[14.679310] (turtlebot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.682516] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.772747] (-) TimerEvent: {}
+[14.796178] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.800765] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.872893] (-) TimerEvent: {}
+[14.974597] (-) TimerEvent: {}
+[15.075678] (-) TimerEvent: {}
+[15.176838] (-) TimerEvent: {}
+[15.277633] (-) TimerEvent: {}
+[15.378179] (-) TimerEvent: {}
+[15.478894] (-) TimerEvent: {}
+[15.579593] (-) TimerEvent: {}
+[15.680432] (-) TimerEvent: {}
+[15.785401] (-) TimerEvent: {}
+[15.887985] (-) TimerEvent: {}
+[15.988990] (-) TimerEvent: {}
+[16.102978] (-) TimerEvent: {}
+[16.205157] (-) TimerEvent: {}
+[16.293845] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.313226] (-) TimerEvent: {}
+[16.369261] (turtlebot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.369550] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.373950] (turtlebot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.413353] (-) TimerEvent: {}
+[16.488227] (turtlebot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[16.513479] (-) TimerEvent: {}
+[16.669634] (-) TimerEvent: {}
+[16.770765] (-) TimerEvent: {}
+[16.872363] (-) TimerEvent: {}
+[16.978264] (-) TimerEvent: {}
+[17.078713] (-) TimerEvent: {}
+[17.179271] (-) TimerEvent: {}
+[17.279732] (-) TimerEvent: {}
+[17.380568] (-) TimerEvent: {}
+[17.485171] (-) TimerEvent: {}
+[17.586366] (-) TimerEvent: {}
+[17.693159] (-) TimerEvent: {}
+[17.793893] (-) TimerEvent: {}
+[17.901170] (-) TimerEvent: {}
+[18.008426] (-) TimerEvent: {}
+[18.113165] (-) TimerEvent: {}
+[18.221158] (-) TimerEvent: {}
+[18.322495] (-) TimerEvent: {}
+[18.472777] (-) TimerEvent: {}
+[18.575579] (-) TimerEvent: {}
+[18.675924] (-) TimerEvent: {}
+[18.777407] (-) TimerEvent: {}
+[18.882404] (-) TimerEvent: {}
+[18.988373] (-) TimerEvent: {}
+[19.092215] (-) TimerEvent: {}
+[19.194044] (-) TimerEvent: {}
+[19.294450] (-) TimerEvent: {}
+[19.394872] (-) TimerEvent: {}
+[19.497786] (-) TimerEvent: {}
+[19.598351] (-) TimerEvent: {}
+[19.704083] (-) TimerEvent: {}
+[19.725004] (turtlebot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[19.808569] (-) TimerEvent: {}
+[19.909944] (-) TimerEvent: {}
+[20.011442] (-) TimerEvent: {}
+[20.125165] (-) TimerEvent: {}
+[20.271769] (-) TimerEvent: {}
+[20.372452] (-) TimerEvent: {}
+[20.473816] (-) TimerEvent: {}
+[20.575895] (-) TimerEvent: {}
+[20.681397] (-) TimerEvent: {}
+[20.782009] (-) TimerEvent: {}
+[20.885938] (-) TimerEvent: {}
+[20.988093] (-) TimerEvent: {}
+[21.089480] (-) TimerEvent: {}
+[21.197158] (-) TimerEvent: {}
+[21.297567] (-) TimerEvent: {}
+[21.397971] (-) TimerEvent: {}
+[21.500643] (-) TimerEvent: {}
+[21.601443] (-) TimerEvent: {}
+[21.702331] (-) TimerEvent: {}
+[21.786695] (turtlebot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[21.803643] (-) TimerEvent: {}
+[21.906600] (-) TimerEvent: {}
+[22.007205] (-) TimerEvent: {}
+[22.169171] (-) TimerEvent: {}
+[22.270550] (-) TimerEvent: {}
+[22.371739] (-) TimerEvent: {}
+[22.475995] (-) TimerEvent: {}
+[22.577049] (-) TimerEvent: {}
+[22.681162] (-) TimerEvent: {}
+[22.782303] (-) TimerEvent: {}
+[22.885278] (-) TimerEvent: {}
+[22.905292] (turtlebot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.977244] (turtlebot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[22.985400] (-) TimerEvent: {}
+[23.072777] (turtlebot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.085534] (turtlebot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[23.085884] (-) TimerEvent: {}
+[23.096149] (turtlebot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/turtlebot_bringup\n'}
+[23.173603] (turtlebot_bringup) CommandEnded: {'returncode': 0}
+[23.187957] (turtlebot_bringup) JobProgress: {'identifier': 'turtlebot_bringup', 'progress': 'build'}
+[23.188078] (-) TimerEvent: {}
+[23.188287] (turtlebot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/turtlebot_bringup', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/turtlebot_bringup', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/turtlebot_bringup'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/turtlebot_bringup:/home/user/ros2_ws/install/turtlebot3:/home/user/ros2_ws/install/turtlebot3_teleop:/home/user/ros2_ws/install/turtlebot3_simulations:/home/user/ros2_ws/install/turtlebot3_bringup:/home/user/ros2_ws/install/turtlebot3_node:/home/user/ros2_ws/install/turtlebot3_navigation2:/home/user/ros2_ws/install/turtlebot3_fake_node:/home/user/ros2_ws/install/turtlebot3_example:/home/user/ros2_ws/install/turtlebot3_msgs:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/turtlebot3_description:/home/user/ros2_ws/install/turtlebot3_cartographer:/home/user/ros2_ws/install/dynamixel_sdk_examples:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/user/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/turtlebot_bringup:/home/user/ros2_ws/install/turtlebot3:/home/user/ros2_ws/install/turtlebot3_simulations:/home/user/ros2_ws/install/turtlebot3_bringup:/home/user/ros2_ws/install/turtlebot3_node:/home/user/ros2_ws/install/turtlebot3_navigation2:/home/user/ros2_ws/install/turtlebot3_fake_node:/home/user/ros2_ws/install/turtlebot3_msgs:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/turtlebot3_description:/home/user/ros2_ws/install/turtlebot3_cartographer:/home/user/ros2_ws/install/dynamixel_sdk_examples:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/user/ros2_ws/install/dynamixel_sdk:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/turtlebot3_teleop:/home/user/ros2_ws/install/turtlebot3_example:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/user/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/user/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('TURTLEBOT3_MODEL', 'waffle'), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/home/user/ros2_ws/install/turtlebot3_msgs/lib:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '770480'), ('SLOT_PREFIX', 'fe41d630-f5f3-4359-a6c8-aa41bd31e26a'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25193'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/turtlebot_bringup'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[23.288319] (-) TimerEvent: {}
+[23.388867] (-) TimerEvent: {}
+[23.489365] (-) TimerEvent: {}
+[23.578674] (turtlebot_bringup) CommandEnded: {'returncode': 0}
+[23.589432] (-) TimerEvent: {}
+[23.693178] (-) TimerEvent: {}
+[23.800503] (-) TimerEvent: {}
+[23.901575] (-) TimerEvent: {}
+[23.997240] (turtlebot_bringup) JobProgress: {'identifier': 'turtlebot_bringup', 'progress': 'install'}
+[24.002391] (-) TimerEvent: {}
+[24.089676] (turtlebot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/turtlebot_bringup'], 'cwd': '/home/user/ros2_ws/build/turtlebot_bringup', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/turtlebot_bringup'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/turtlebot_bringup:/home/user/ros2_ws/install/turtlebot3:/home/user/ros2_ws/install/turtlebot3_teleop:/home/user/ros2_ws/install/turtlebot3_simulations:/home/user/ros2_ws/install/turtlebot3_bringup:/home/user/ros2_ws/install/turtlebot3_node:/home/user/ros2_ws/install/turtlebot3_navigation2:/home/user/ros2_ws/install/turtlebot3_fake_node:/home/user/ros2_ws/install/turtlebot3_example:/home/user/ros2_ws/install/turtlebot3_msgs:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/turtlebot3_description:/home/user/ros2_ws/install/turtlebot3_cartographer:/home/user/ros2_ws/install/dynamixel_sdk_examples:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/user/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/turtlebot_bringup:/home/user/ros2_ws/install/turtlebot3:/home/user/ros2_ws/install/turtlebot3_simulations:/home/user/ros2_ws/install/turtlebot3_bringup:/home/user/ros2_ws/install/turtlebot3_node:/home/user/ros2_ws/install/turtlebot3_navigation2:/home/user/ros2_ws/install/turtlebot3_fake_node:/home/user/ros2_ws/install/turtlebot3_msgs:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/turtlebot3_description:/home/user/ros2_ws/install/turtlebot3_cartographer:/home/user/ros2_ws/install/dynamixel_sdk_examples:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/user/ros2_ws/install/dynamixel_sdk:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/turtlebot3_teleop:/home/user/ros2_ws/install/turtlebot3_example:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/user/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/user/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('TURTLEBOT3_MODEL', 'waffle'), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/home/user/ros2_ws/install/turtlebot3_msgs/lib:/home/user/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '770480'), ('SLOT_PREFIX', 'fe41d630-f5f3-4359-a6c8-aa41bd31e26a'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25193'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/turtlebot_bringup'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[24.102772] (-) TimerEvent: {}
+[24.169351] (turtlebot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.169617] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup//launch\n'}
+[24.169740] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup//launch/turtlebot.launch\n'}
+[24.169849] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot_bringup\n'}
+[24.169955] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot_bringup\n'}
+[24.170072] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/environment/ament_prefix_path.sh\n'}
+[24.170177] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/environment/ament_prefix_path.dsv\n'}
+[24.170273] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/environment/path.sh\n'}
+[24.170371] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/environment/path.dsv\n'}
+[24.170476] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/local_setup.bash\n'}
+[24.170582] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/local_setup.sh\n'}
+[24.170717] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/local_setup.zsh\n'}
+[24.172133] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/local_setup.dsv\n'}
+[24.173580] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/package.dsv\n'}
+[24.174408] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/ament_index/resource_index/packages/turtlebot_bringup\n'}
+[24.175086] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/cmake/turtlebot_bringupConfig.cmake\n'}
+[24.175647] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/cmake/turtlebot_bringupConfig-version.cmake\n'}
+[24.176190] (turtlebot_bringup) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot_bringup/share/turtlebot_bringup/package.xml\n'}
+[24.179645] (turtlebot_bringup) CommandEnded: {'returncode': 0}
+[24.203147] (-) TimerEvent: {}
+[24.303588] (-) TimerEvent: {}
+[24.403976] (-) TimerEvent: {}
+[24.571200] (-) TimerEvent: {}
+[24.671608] (-) TimerEvent: {}
+[24.772049] (-) TimerEvent: {}
+[24.873302] (-) TimerEvent: {}
+[24.973729] (-) TimerEvent: {}
+[25.074857] (-) TimerEvent: {}
+[25.105271] (turtlebot_bringup) JobEnded: {'identifier': 'turtlebot_bringup', 'rc': 0}
+[25.108765] (-) EventReactorShutdown: {}
